@@ -32,8 +32,8 @@ def fofa():
     addr = "https://fofa.so/api/v1/search/all"
 
     parameters = {
-        
-    }     # 这里填入 fofa 的 api 参数
+        # 这里填入 fofa 的 api 参数    
+    }
 
     try:
         resp = requests.get(url=addr, params=parameters, headers=headers, proxies=proxies, verify=False)
