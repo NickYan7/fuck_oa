@@ -8,7 +8,7 @@ Fuck_OA 是一个粗糙的 OA 系统扫描器，由 Nick Yan 和 Yoga7xm 于 202
 
 Yoga7xm: https://yoga7xm.top
 
-Nick Yan: http://naykcin.top
+Nick Yan: http://www.naykcin.top
 
 **声明：代码仅供安全研究，请勿用做非法用途！**
 
