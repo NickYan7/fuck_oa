@@ -42,10 +42,10 @@ Nick Yan: http://www.naykcin.top
 
 需要安装第三方库：
 
-```
+```python
 pip install aiohttp
 pip install asyncio
-pip install multiprocess
+pip install aiomultiprocess
 ```
 
 
@@ -55,4 +55,18 @@ pip install multiprocess
 这里利用了一个文件上传 + 文件包含。
 
 文件上传接口： `/ispirit/im/upload.php` ，文件包含漏洞触发点： `/ispirit/interface/gateway.php` 。（文件默认被保存在 `/general/../../attach/im` 目录下）
+
+
+
+### 📍 _tongda_oa_upload_fi_aio_
+
+上一个漏洞的高并发版本，主要利用 `aiohttp` + `asyncio` 两个库实现，支持批量检测。速度很理想，6000 多个 IP 跑了 100 秒左右，但是对于代理服务器的速度有一定要求。
+
+需要安装第三方库：
+
+```python
+pip install aiohttp
+pip install asyncio
+pip install aiomultiprocess
+```
 
