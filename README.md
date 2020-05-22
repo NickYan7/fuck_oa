@@ -8,9 +8,9 @@ Fuck_OA 是一个粗糙的 OA 系统扫描器，由 Nick Yan 和 Yoga7xm 于 202
 
 Yoga7xm: https://yoga7xm.top
 
-Nick Yan: http://www.naykcin.top
+Nick Yan: https://Naykcin.top
 
-**声明：代码仅供安全研究，请勿用做非法用途！**
+**声明：代码仅供安全研究，请勿用作非法用途！**
 
 
 
@@ -42,7 +42,7 @@ Nick Yan: http://www.naykcin.top
 
 需要安装第三方库：
 
-```python
+```bash
 pip install aiohttp
 pip install asyncio
 pip install aiomultiprocess
@@ -64,7 +64,7 @@ pip install aiomultiprocess
 
 需要安装第三方库：
 
-```python
+```bash
 pip install aiohttp
 pip install asyncio
 pip install aiomultiprocess
